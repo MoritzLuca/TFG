@@ -1,0 +1,26 @@
+.form1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	heigh:100%;
+  background-color:white;
+}
+
+.button {
+  margin-top: 5%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+} 
+.round {
+  --width: 60px;
+  --height: 60px;
+  --border-radius: 50%;
+  --vertical-align: middle;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  --border-color: danger;
+  --color: danger;
+}

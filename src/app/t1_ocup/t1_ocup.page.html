@@ -1,0 +1,103 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Occupancy
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style="background-color: white;height: 100%;width: 100%">
+    <div class="form1">
+      <ion-item color="light" >
+        <ion-label>Capacity</ion-label>
+        <ion-input type="number" placeholder="0" [(ngModel)]="ocupancyData.capacity"></ion-input>
+      </ion-item >
+      <ion-item color="light">
+        <ion-label>Normal bikes</ion-label>
+        <ion-input type="number" placeholder="0"  [(ngModel)]="ocupancyData.bikes"></ion-input>
+      </ion-item>
+
+      <ion-item color="light">
+        <ion-label>Kid bikes</ion-label>
+        <ion-input type="number" placeholder="0" [(ngModel)]="ocupancyData.kidbikes"></ion-input>
+      </ion-item>
+
+      <ion-item color="light">
+        <ion-label>Vandalized bikes</ion-label>
+        <ion-input type="number" placeholder="0" [(ngModel)]="ocupancyData.abandonedbikes"></ion-input>
+      </ion-item >
+
+      <ion-item color="light">
+        <ion-label>Shared bikes</ion-label>
+        <ion-input type="number" placeholder="0" [(ngModel)]="ocupancyData.sharedbikes"></ion-input>
+      </ion-item>
+
+      <ion-item id="municipality" color="light" [hidden]="true">
+        <ion-label>Municipality</ion-label>
+        <ion-input type="string" placeholder="Name" [(ngModel)]="ocupancyData.municipality"></ion-input>
+      </ion-item>
+
+      <div>
+        <input (click)="show('municipality')" type="button"  value="Muni" style="position: left;background-color:lightblue;width:33%;">
+        <input (click)="addPhotoToGallery()" type="button"  value="Foto" style="position: left;background-color:purple;width:33%;">
+
+      </div>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6" *ngFor="let photo of photoService.photos; index as position">
+            <ion-img [src]="photo.webviewPath"></ion-img>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+      <ion-item id="fotos" color="light" [hidden]="true">
+        <ion-label class="ion-text-wrap">Only the last photo will be uploaded</ion-label>
+      </ion-item>
+      <div>
+        <input id="cancel" type="button"  value="Cancel" routerLink="/tabs/t1_anchor"  style="position: left;background-color:red;width:50%;">
+        <input (click)="clicBotonInsertar()" type="button"  value="Submit"   style="position: right;background-color:green;width:50%;">
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+
+
+
+
+<!--
+ 
+    <div class="form2">
+      <p>Number of bikes</p>
+      <input type="text" value="" class="area" id="bikes">
+    </div>
+    <div class="form2">
+      <p>Number of bikes for kids</p>
+      <input type="text" value="0" class="area" id="kid_bikes">
+    </div>
+    <div class="form2">
+      <p>Number of abandoned bikes</p>
+      <input type="text" value="0" class="area" id="abandoned_bikes">
+    </div>
+    <div class="form2">
+      <p>Shared</p>
+      <input type="text" value="0" class="area" id="shared_bikes">
+    </div>
+Ionic buttons
+
+
+
+      <ion-item color="light">
+        <ion-button id="cancel" routerLink="/tabs/t1_anchor" color="danger" size="large" expand="full">Cancel</ion-button>
+        <ion-button (click)="clicBotonInsertar()" color="success" size="large" expand="full">Submit</ion-button>
+      </ion-item>
+      <ion-item color="light">
+        <ion-button color="secondary" size="large" expand="full">Capacity</ion-button>
+        <ion-button color="tertiary" size="large" expand="full">Foto</ion-button>
+        <ion-button color="secondary" size="large" expand="full">Municipality</ion-button>        
+      </ion-item>
+
+
+
+  -->

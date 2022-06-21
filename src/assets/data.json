@@ -1,0 +1,34 @@
+{
+    "properties": [
+        {
+            "place": "EURECA UAB",
+            "long": 2.1083117925495634,
+            "lat": 41.49721006148341,
+            "ID": "0",
+            "municipality": "UAB",
+            "AVG_OC": 30,
+            "MAX_OC": 50,
+            "CAPACITY": 14
+        },
+        {
+            "place": "ICTA-UAB",
+            "long": 2.1086437504930906,
+            "lat": 41.49757556257826,
+            "ID":"1",
+            "municipality": "UAB",
+            "AVG_OC": 30,
+            "MAX_OC": 50,
+            "CAPACITY": 14
+        },
+        {
+            "place": "SAF UAB",
+            "long": 2.109371487242,
+            "lat": 41.49931931059057,
+            "ID":"10",
+            "municipality": "UAB",
+            "AVG_OC": 30,
+            "MAX_OC": 50,
+            "CAPACITY": 14
+        }
+    ]
+}

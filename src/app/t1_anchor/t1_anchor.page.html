@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Anchor station
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style="background-color: white;">
+  <div id="gif" [hidden]="false">
+
+      <h1 style="text-align: center;">Loading</h1>
+      <img class="center" src="assets/gifs/load_anchor.gif">
+
+  </div>
+<div id="content" style="background-color: white;height: 100%;width: 100%" [hidden]="true">
+  <div>
+    <p class="info">Municipality: {{anchorData.place}} </p>
+    <p class="info">Average occupancy: {{anchorData.AVGoccupancy}}</p>
+    <p class="info">Maximum occupancy: {{anchorData.MAXoccupancy}}</p>
+    <p class="info">Capacity: {{anchorData.capacity}}</p>
+    <p class="info">Registers: {{anchorData.registers}}</p>
+  </div>
+
+  <div id="imgDIV">
+   <!--<img class="anchor" src={{anchor.foto}}>-->
+   <img id="myimg" src=""> 
+  </div>
+  <div>
+    <input class="buttontab1_1" type="button" value="Occupancy" routerLink="/tabs/t1_ocup" onclick="" style="position: left;"/>
+    <input class="buttontab1_1" type="button"  value="Send report" routerLink="/tabs/t1_report" onclick="" style="position: right;"/>
+</div>
+
+</div>
+
+
+</ion-content>
+ <!--
+  <div>
+    <p class="info">Municipality: {{anchor.municipality}} </p>
+    <p class="info">Average occupancy: {{anchor.AVG_OC}}%</p>
+    <p class="info">Maximum occupancy: {{anchor.MAX_OC}}%</p>
+    <p class="info">Capacity: {{anchor.CAPACITY}}</p>
+  </div>
+
+ --> 

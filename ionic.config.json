@@ -1,0 +1,7 @@
+{
+  "name": "BikeApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

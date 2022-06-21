@@ -1,0 +1,57 @@
+{
+    "place1": {
+	    "place": "EURECA UAB",
+        "long": 2.1083117925495634,
+        "lat": 41.49721006148341,
+        "ID": "0",
+        "municipality": "UAB",
+        "AVG_OC": 5,
+        "MAX_OC": 20,
+        "CAPACITY": 10,
+        "foto":"../../assets/icon/anchor1.jpeg"
+    },
+    "place2": {
+        "place": "SAF UAB",
+        "long": 2.109371487242,
+        "lat": 41.49931931059057,
+        "ID":"10",
+        "municipality": "UAB",
+        "AVG_OC": 22.92,
+        "MAX_OC": 31.25,
+        "CAPACITY": 16,
+        "foto":"../../assets/icon/anchor2.jpeg"
+    },
+    "place3": {
+        "place": "ICTA-UAB",
+        "long": 2.1086437504930906,
+        "lat": 41.49757556257826,
+        "ID":"1",
+        "municipality": "UAB",
+        "AVG_OC": 12.50,
+        "MAX_OC": 28.57,
+        "CAPACITY": 14,
+        "foto":"../../assets/icon/anchor3.jpeg"
+	},
+    "place4": {
+        "place": "Civica pont dir icta",
+        "long": 2.1038340433778084,
+        "lat": 41.5015375579335,
+        "ID":"1",
+        "municipality": "UAB",
+        "AVG_OC": 25,
+        "MAX_OC": 37.5,
+        "CAPACITY": 8,
+        "foto":"../../assets/icon/anchor4.jpeg"
+    },
+    "place5": {
+        "place": "Pont estació",
+        "long": 2.1029966067482015,
+        "lat": 41.50261355490671,
+        "ID":"1",
+        "municipality": "UAB",
+        "AVG_OC": 16.67,
+        "MAX_OC": 16.67,
+        "CAPACITY": 14,
+        "foto":"../../assets/icon/anchor5.jpeg"
+    }
+}

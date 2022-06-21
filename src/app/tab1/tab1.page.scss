@@ -1,0 +1,22 @@
+.buttontab1 {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 40%;
+  background-color: white;
+  color:black;
+}
+.bg{text-align: center;
+  min-height: 75px; 
+  background-image: linear-gradient(to right, #78f6d9,  #8aff90, #ffffa3);
+  padding: 0;
+  margin: 0;
+  position:relative;
+}
+h1{color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;left: 50%;
+  font-size: calc(3.5*3vw);
+}

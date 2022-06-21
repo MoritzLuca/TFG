@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Bike app</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+<div id="mapId" style="width:80%; height:70%;;" class="add_divs">
+
+</div>
+
+<div style="width: 80%;"  class="add_divs">
+  <input (click)="locate()" type="button" value="Update" onclick="" style="width: 50%;position: left;">
+  <input  (click)="addPhotoToGallery()" type="button" value="Camera"  style="width: 50%;position: right;">  
+</div>
+<div style="width: 80%;"  class="add_divs">
+  <img id="fotos" [hidden]="true">
+</div>
+<div style="width: 80%;" class="form1">
+  <input   id="cancel" type="button" class="button" value="Cancel" onclick="" style="position: left;width: 50%;background-color:red;" routerLink="/tabs/tab1">
+  <input (click)="addAnchor()" type="button" class="button" value="Submit"  style="position: right;width: 50%;background-color:green;" >  
+</div>
+
+</ion-content>
+ 

@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { Injectable } from '@angular/core';
 
 import { AngularFirestore } from '@angular/fire/compat/firestore';

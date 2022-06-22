@@ -1,3 +1,5 @@
+//Author: Luca Moritz Liborio Liebscht
+
 import { AppPage } from './app.po';
 
 describe('new App', () => {

@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 

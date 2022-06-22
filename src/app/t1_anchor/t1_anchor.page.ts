@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { Component,  OnInit } from '@angular/core';
 import { InfoAnchorService } from '../services/info-anchor.service';
 import { GetAnchorDataService } from '../services/get-anchor-data.service';

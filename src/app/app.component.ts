@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 @Component({

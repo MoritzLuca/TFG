@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { Component } from '@angular/core';
 import { OcupancyService } from '../services/ocupancy.service';
 import { Anchor } from '../foodprints/anchor';

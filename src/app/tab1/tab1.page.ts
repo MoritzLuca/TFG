@@ -1,3 +1,4 @@
+//Author: Luca Moritz Liborio Liebscht
 import { Component } from '@angular/core';
 import * as Leaflet from 'leaflet';
 import { Geolocation } from '@capacitor/geolocation';
